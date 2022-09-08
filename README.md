@@ -1,4 +1,4 @@
 # 80640
 Repositorios de Ejemplos de la EE de Sistemas Web
 
-Samuel Olemdo Ortiz
+Samuel Olmedo Ortiz
