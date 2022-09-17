@@ -20,11 +20,13 @@
             padding: 10px;
             display: flex;
             flex-wrap: wrap;
+            float: inline-start;
         }
 
         .imagen{
             background-color: aqua;
-            width: 200px;
+            /*width: 200px;*/
+            width: auto;
             margin: 20px;
             text-align: center;
         }
@@ -38,7 +40,9 @@
         .img{
             margin: 10px;
             border: 2px;
-            position:relative ;
+            background-size: cover;
+            background-position: center center;
+            list-style-position: inside;
         }
 
     </style>
@@ -53,15 +57,15 @@
             </div>
         
             <div class="imagen">02
-                <img src="Imagenes/perr2.png">
+                <img class="img" src="Imagenes/perr2.png">
             </div>
         
             <div class="imagen">03
-                <img src="Imagenes/perr3.png">
+                <img class="img" src="Imagenes/perr3.png">
             </div>
          
             <div class="imagen">04
-               <img src="Imagenes/perr4.png">
+               <img class="img" src="Imagenes/perr4.png">
             </div>
         </div>
     
