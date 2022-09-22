@@ -1,0 +1,50 @@
+.copyright{background:#3A3636;color: white;text-align: center;font-size: 14px;padding: 15px}
+#footer{background:#5B5151;overflow: hidden;}		
+.footer_blocks{padding: 130px 0px}
+.block1 {width: 400px;margin-top: -120px}
+.block1 h2{margin-left:50px;margin-right:-10px;font-size: 15px;color: #B8b8B8;border-bottom:2px solid #B8B8B8 }
+.footerul{margin-left: 40px;}
+
+ul > li a:hover {background: #658662}
+ul li a {
+	color: #ffff;
+	display: block;
+	line-height: 20px;
+	padding: 0px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+	border-radius: 40px;
+}
+
+#footer .footer_blocks .block1 .links .footerul{list-style: none;display: table-row;}
+#footer .footer_blocks .block1 .links .footerul li a{font-size: 14px;color: #b8b8b8;text-decoration: none;}
+
+#footer .footer_blocks .block1 .footerul1 li a{font-size: 14px;color: #b8b8b8;text-decoration: none;margin-left: 40px;}
+#footer .footer_blocks .block1 .footerul2 li a{font-size: 14px;color: #b8b8b8;text-decoration: none;margin-left: 40px;}
+#footer .footer_blocks .block2 .footerul3 li a{font-size: 14px;color: #b8b8b8;text-decoration: none;margin-left: 40px;}
+
+
+.block2 h2{margin-left:480px;margin-right:550px;font-size: 15px;color: #B8B8B8;border-bottom:2px solid #B8B8B8 }
+
+.uno{width: 100px;height: 90px;margin-left: 225px;}
+.dos{width: 110px;height: 90px;margin-left: -14px;}
+.tres{width: 100px;height: 90px;margin-left: -14px}
+
+.portada{width: 120px;height: 90px;margin-top: 5px;margin-left: 7px;}
+.quienes{width: 120px;height: 10px;margin-top: 40px;margin-left: -129px;}
+
+.inicio{width: 70px;height: 20px;margin-left: 10px;}
+.continentes{width: 110px;height: 20px;margin-left:-5px;}
+.contactos{width: 95px;height: 20px;margin-left: -5px}
+.media1{width: 70px;height: 20px;margin-left: 300px;margin-top: -30px;}
+
+.america{width: 110px;height: 20px;margin-top: 5px;margin-left: -35px}
+.europa{width: 110px;height: 20px;margin-top: 40px;margin-left: -121px}
+.asia{width: 110px;height: 20px;margin-top: 80px;margin-left: -122px}
+.africa{width: 110px;height: 20px;margin-top: 120px;margin-left: -122px}
+.oceania{width: 110px;height: 20px;margin-top: 160px;margin-left: -121px}

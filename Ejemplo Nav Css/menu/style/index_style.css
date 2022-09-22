@@ -1,0 +1,150 @@
+*{margin: 0;padding: 0;font-family: arial;}
+
+
+section#banner{width: 100%;background-image: url(../pictures/paisaje2.jpg);background-attachment: contain;background-position: center;background-repeat: no-repeat; }
+
+header{
+	position: fixed;
+	width: 100%;
+	height:100px;
+	background-color: transparent;
+	-webkit-transition: background-color .5s;
+	z-index: 1000;
+}
+
+nav{
+	display: table;
+	margin: auto;
+	margin-top: 15px;
+	height: 40px;
+	-webkit-transition: margin-left .5s;
+}
+
+ul{
+	display: block;
+	float: left;
+	list-style: none;
+}
+
+.inicio1{width:95px;margin-right: 20px;}
+.portada1{width:100px;margin-right: 10px;margin-left: -58px;margin-top: 20px}
+.quienes1{width:95px;margin-right: 20px;margin-top: 10px;}
+
+.continentes1{width:120px;margin-right: 20px;}
+.america1{width:100px;margin-right: 20px;margin-left: -5px;margin-top: 18px;}
+.europa1{width:95px;margin-right: 20px;margin-left: -20px;margin-top: 18px;}
+.asia1{width:95px;margin-right: 20px;margin-left: -20px;margin-top: 18px;}
+.africa1{width:95px;margin-right: 20px;margin-left: -20px;margin-top: 18px;}
+.oceania1{width:95px;margin-right: 20px;margin-left: -20px;margin-top: 18px;}
+
+.contactos1{width:105px;margin-right: 20px;}
+.correo1{width:95px;margin-right: -20px;margin-left: -35px;margin-top: 18px}
+.youtube1{width:95px;margin-right: 20px;margin-top: 18px}
+
+.media2{width:95px;margin-right: 20px;}
+
+
+ul li{
+	float: left;
+	margin: 10px;
+	padding: 2px;
+}
+
+ul a{
+	color: #5B5151;
+	text-decoration: none;
+}
+
+.nav li a:hover{
+	background-color: #38A062;
+}
+
+.nav > li {
+	float: left;
+}
+
+.nav li ul {
+	display:none; ;
+	position: absolute;
+	min-width: 100px;
+}
+
+.nav li:hover > ul {
+	display: block;
+}
+
+nav > ul > li a:hover {
+	background: #5da5a2;
+}
+
+nav > ul > li > ul > li a:hover {
+	background: #5da5a2;
+}
+
+/*sub-menu*/
+nav > ul > li:hover > ul {
+	display: block;
+}
+
+nav > ul li a {
+	color: #ffff;
+	display: block;
+	line-height: 20px;
+	padding: 0px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .8s ease;
+	-moz-transition: all .8s ease;
+	-ms-transition: all .8s ease;
+	-o-transition: all .8s ease;
+	transition: all .8s ease;
+}
+
+
+.color1{
+	background: gray;
+}
+
+
+img#logo{
+	float:left;
+	display: block;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 150px;
+	-webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+}
+
+#body{
+	width: 100%;
+	height: 100px;
+
+}
+
+h1{margin-top: 40px;margin-left: 50px;}
+
+p#uno{margin-left: 60px;font-family: inherit;}
+
+
+.alemania{background: #5B5151;margin-top: -40px;width: 100%;height: 50px}
+.alemania h1{color: #B8b8B8;font-size: 40px;font-family: Kaushan Script;text-align: center;margin-right: 50px;}
+
+
+.lado1{background-color: #663300;width: 500px;height: 220px;margin-left: 60px;margin-top: 110px;margin-left: 800px;opacity:  }
+	.lado1 h1{color: #b8b8b8;text-align: center;}
+	.lado1 p{color: #b8b8b8;text-align: center;margin-top: 12px;}
+	.pequeño{font-size: 12px;color: #b8b8b8;text-align: center;margin-top: 12px;}
+.lado2{background-color: #663300;width: 500px;height: 220px;margin-left: 60px;margin-top: 150px;margin-left: 800px;opacity: ? }
+	.lado2 h1{color: #b8b8b8;text-align: center;}
+	.lado2 p{color: #b8b8b8;text-align: center;margin-top: 12px;}
+.lado3{background-color: #663300;width: 500px;height: 220px;margin-left: 60px;margin-top: 150px;margin-left: 800px;opacity: ? }
+	.lado3 h1{color: #b8b8b8;text-align: center;}
+	.lado3 p{color: #b8b8b8;text-align: center;margin-top: 12px;}
+.lado4{background-color: #663300;width: 500px;height: 220px;margin-left: 60px;margin-top: 150px;margin-left: 800px;opacity: ? }
+	.lado4 h1{color: #b8b8b8;text-align: center;}
+	.lado4 p{color: #b8b8b8;text-align: center;margin-top: 12px;}	
+.lado5{background-color: #663300;width: 500px;height: 220px;margin-left: 60px;margin-top: 150px;margin-left: 800px;opacity: ? }
+	.lado5 h1{color: #b8b8b8;text-align: center;}
+	.lado5 p{color: #b8b8b8;text-align: center;margin-top: 12px;}		
+
+.mini{margin-left: 1100px;margin-top: -100px;}
