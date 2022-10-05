@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>document</title>
+
+	<script type="text/javascript">
+		
+		function cambiarColor(color) {
+			console.log("El color recibido es:", color)
+			let e = document.getElementById("Texto1")
+			e.style.color = color	
+		}
+
+		function cambiarColor2(color) {
+			console.log("El color recibido es:", color)
+			let e = document.getElementById("Texto3")
+			e.style.color = color	
+		}
+
+
+		function cambiarColores(color) {
+			let c = document.getElementsByTagName("p")
+			//for (let index = 0; index < c.length; index++) {
+			//	c[index].style.color=color
+			//}
+
+			var arr = [].slice.call(c);
+			arr.forEach(element => {
+				console.log(element)
+			});
+		}
+		
+	</script>
+
+
+</head>
+<body>
+
+	<p id="Texto1">simple texto 1</p>
+	<p id="Texto2">simple texto 2</p>
+	<p id="Texto3">simple texto 3</p>
+	<button onclick="cambiarColor('#'); cambiarColor2('green')">azul</button>
+	<button onclick="cambiarColor('red'); cambiarColor2('violet')">rojo</button>
+
+	<button onclick="cambiarColores('orange')">Colores</button>
+	
+</body>
+</html>
