@@ -26,10 +26,27 @@
 			//	c[index].style.color=color
 			//}
 
-			var arr = [].slice.call(c);
-			arr.forEach(element => {
-				console.log(element)
-			});
+			//var arr = [].slice.call(c);
+			//arr.forEach(element => {
+			//	console.log(element)
+			//});
+			
+		//Ejemplo creado
+			for (const color in c) {
+				if (Object.hasOwnProperty.call(c, color)) {
+					c[color].style.color="blue"
+					const element = c[color];
+					console.log(element)
+				}
+			}
+
+			//let i = 0
+			//for(let x in c){
+			//	if(i < c.length){
+			//		c[x].style.color="blue"
+			//		i++
+			//	}
+			//}
 		}
 		
 	</script>
