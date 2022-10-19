@@ -58,11 +58,20 @@ function buscar(){
             //if (leer() == tarea.childNodes[0]) {
                 //console.log(listaTodo[tarea]);
 
-                    if (leer() == listaTodo[tarea].childNodes[0]) {
-                        console.log("existe");
-                    } else 
-                        console.log("no existe");
-                        console.log(listaTodo);
+                a = listaTodo[tarea].childNodes[0]
+                b = leer()
+
+                console.log("a ", typeof a.textContent, "b", typeof b )
+
+                if (a == b)
+                console.log("ya existe");
+                    
+                
+                    //if (leer() == listaTodo[tarea].childNodes[0]) {
+                    //    console.log("existe");
+                    //} else 
+                    //    console.log("no existe");
+                    //    console.log(listaTodo);
                     
             //}
             
