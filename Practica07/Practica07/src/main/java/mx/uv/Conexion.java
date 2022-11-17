@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-    private static String url="jdbc:mysql://localhost:3306/database";
-    private static String nameDriver = "mysql-connector-java-8.0.27 .jar"; //com.mysql.jdbc.Driver
+    private static String url="jdbc:mysql://localhost:3306/ejemplo80640";
+    private static String nameDriver = "com.mysql.jdbc.Driver";//"mysql-connector-java-8.0.27 .jar";
     private static String user="root";
     private static String password="123456789";
 
@@ -16,6 +16,8 @@ public class Conexion {
         try {
             Class.forName(nameDriver);
             connection = DriverManager.getConnection(url, user, password);
+            System.out.println("conexion exitosa");
+            System.out.println(connection);
         } catch (SQLException e) {
             System.out.println(e);
             // TODO: handle exception
