@@ -33,8 +33,8 @@
             //axios.post("http://localhost:4567", parametros)
             .then(function(response) {
                 console.log("respuesta: ", response);
-                //document.getElementById("respuesta").innerHTML = response.data.msj + " " + response.data.email
-				window.open("https://www.google.com", "_self")
+                document.getElementById("respuesta").innerHTML = response.data.msj + " " + response.data.email
+				//window.open("https://www.google.com", "_self")
             })
             .catch(function(error) {
                 console.log("error: ", error);
